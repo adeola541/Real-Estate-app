@@ -1,0 +1,86 @@
+header{
+               /* background-color: rgb(15, 14, 14); */
+               height: 0vh;
+               /* box-shadow: 0 5px 30px rgb(0 22 84 / 10%); */
+               padding: 0px 0;
+               position: sticky;
+               top: 0;
+               z-index: 999 ;
+               scroll-behavior: smooth;
+}
+
+header img{
+               width: 170px;
+}
+header a {
+               margin-left: 30px;
+               transition: 0.5s;
+               font-weight: 500;
+               color: #000;
+}
+
+header a:hover {
+               color: rgb(19, 17, 17);
+}
+header span {
+              width: auto;
+              padding: 0 6px;
+              background-color: #f3f2f2;
+              border-radius: 58px;
+              color: #0f0e0e;
+              margin-right: 4px;
+              font-weight: 400;
+
+}
+header h4 {
+               margin-right: 20px;
+               color: darkblue;             
+               font-weight: 700;
+
+}
+header .toggle {
+               display: none;
+               
+}
+@media screen and (max-width:768px) {
+               header{                  
+                              padding:0; 
+                              padding-bottom:20px; 
+                              height: 15vh;          
+               }
+               header img{                  
+                              margin-top: 30px;           
+               }
+               
+               header .button {
+                             display: none;
+               }
+               header .nav .flex{
+                              display: none;
+
+               }  
+               header .toggle{
+                              display: block;
+                              margin-top: 20px;
+
+               }        
+}
+
+header .small{
+               position: absolute;
+               top: 10vh;
+               left: 0;
+               width: 100%;
+               background-color: rgb(14, 13, 13);
+               padding: 20px;
+
+
+}
+
+header li a{
+               display: inline-block;
+               margin-bottom: 20px;
+               color: darkblue;
+
+
+}
