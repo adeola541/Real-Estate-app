@@ -8,7 +8,7 @@
 }
 
 footer{
-               background-color: rgb(34, 34, 82);
+               background-color: rgb(0, 0, 0);
                padding: 30px 0;
                color: #fff;         
 }
@@ -34,6 +34,11 @@ footer input{
                width: 100%;
                border-radius: 5px;
     
+}
+footer .home-stay{
+  background-color: #f8f4f4;
+  color: black;
+
 }
 
 footer h3{

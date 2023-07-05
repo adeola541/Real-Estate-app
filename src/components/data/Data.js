@@ -76,33 +76,33 @@ export const nav = [
                  price: "$5,860",
                  type: "Offices",
                },
-               {
-                 id: 4,
-                 cover: "./images/location/city-1.png",
-                 name: "Herringbone Realty",
-                 location: "5621 Liverpool, London",
-                 category: "For Sale",
-                 price: "$7,540",
-                 type: "Homes & Villas",
-               },
-               {
-                 id: 5,
-                 cover: "./images/location/city-5.png",
-                 name: "Brick Lane Realty",
-                 location: "210 Montreal Road, Canada",
-                 category: "For Rent",
-                 price: "$4,850",
-                 type: "Commercial",
-               },
-               {
-                 id: 6,
-                 cover: "../images/list/p-6.png",
-                 name: "Banyon Tree Realty",
-                 location: "210 Zirak Road, Canada",
-                 category: "For Sale",
-                 price: "$2,742",
-                 type: "Apartment",
-               },
+              //  {
+              //    id: 4,
+              //    cover: "./images/location/city-1.png",
+              //    name: "Herringbone Realty",
+              //    location: "5621 Liverpool, London",
+              //    category: "For Sale",
+              //    price: "$7,540",
+              //    type: "Homes & Villas",
+              //  },
+              //  {
+              //    id: 5,
+              //    cover: "./images/location/city-5.png",
+              //    name: "Brick Lane Realty",
+              //    location: "210 Montreal Road, Canada",
+              //    category: "For Rent",
+              //    price: "$4,850",
+              //    type: "Commercial",
+              //  },
+              //  {
+              //    id: 6,
+              //    cover: "../images/list/p-6.png",
+              //    name: "Banyon Tree Realty",
+              //    location: "210 Zirak Road, Canada",
+              //    category: "For Sale",
+              //    price: "$2,742",
+              //    type: "Apartment",
+              //  },
              ]
              
              
@@ -165,11 +165,7 @@ export const nav = [
              export const footer = [
                {
                  title: "LAYOUTS",
-                 text: [{ list: "Home Page" }, { list: "About Page" }, { list: "Service Page" },  { list: "Contact Page" }],
-               },
-               {
-                 title: "ALL SECTIONS",
-                 text: [{ list: "Headers" }, { list: "Features" }, { list: "Footers" }],
+                 text: [{ list: "Home" }, { list: "About" }, { list: "Service " },  { list: "Contact " }],
                },
                {
                  title: "COMPANY",

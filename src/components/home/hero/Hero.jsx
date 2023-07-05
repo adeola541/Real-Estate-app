@@ -11,7 +11,7 @@ const Hero = () => {
         <div className='container'>
           <Heading title='Search Your Next Home ' subtitle='Find new & featured property located in your local city.' />
 
-          <form className='flex'>
+          {/* <form className='flex'>
             <div className='box'>
               <span>City/Street</span>
               <input type='text' placeholder='Location' />
@@ -30,7 +30,7 @@ const Hero = () => {
             <button className='btn1'>
               <i className='fa fa-search'></i>
             </button>
-          </form>
+          </form> */}
         </div>
       </section>
     </>

@@ -1,7 +1,8 @@
+
 header{
                /* background-color: rgb(15, 14, 14); */
                height: 0vh;
-               /* box-shadow: 0 5px 30px rgb(0 22 84 / 10%); */
+               box-shadow: 0 5px 30px rgb(0 22 84 / 10%);
                padding: 0px 0;
                position: sticky;
                top: 0;
@@ -43,14 +44,8 @@ header .toggle {
                
 }
 @media screen and (max-width:768px) {
-               header{                  
-                              padding:0; 
-                              padding-bottom:20px; 
-                              height: 15vh;          
-               }
-               header img{                  
-                              margin-top: 30px;           
-               }
+           
+             
                
                header .button {
                              display: none;
@@ -61,18 +56,27 @@ header .toggle {
                }  
                header .toggle{
                               display: block;
-                              margin-top: 20px;
+                              
 
-               }        
+               }     
+               header .nav{
+                              display: block;
+                              font-family: Arial, Helvetica, sans-serif;
+                              font-style: oblique;
+                              font-weight: 800;
+
+               }     
+                 
 }
 
 header .small{
                position: absolute;
-               top: 10vh;
+               top: 20vh;
                left: 0;
                width: 100%;
-               background-color: rgb(14, 13, 13);
+               background-color:  whitesmoke;
                padding: 20px;
+               
 
 
 }
@@ -80,7 +84,7 @@ header .small{
 header li a{
                display: inline-block;
                margin-bottom: 20px;
-               color: darkblue;
+               color: rgb(3, 3, 20);
 
 
 }

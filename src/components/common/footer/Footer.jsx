@@ -21,14 +21,12 @@ function Footer() {
                <div className="container">
                               <div className="box">
                                              <div className="logo">
-                                                            <img src="../images/logoreal-removebg-preview.png" alt="" />
                                                             <h2>  Get the most lastest news and specially for you </h2>
-                                                            <p> TheHouses</p>
 
 
                                                             <div className="input flex">
                                                                            <input type="text"  placeholder='Email Address' name='' id=''/>
-                                                                           <button> Subscribe</button>
+                                                                           <button className='home-stay'> Subscribe</button>
 
                                                             </div>
                                              </div>
